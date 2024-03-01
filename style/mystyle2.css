@@ -1,0 +1,58 @@
+body {
+  background-color: lightblue;
+font-family: Arial;
+
+}
+
+h1 {
+  color: white;
+  margin-left: 20px;
+
+}
+
+p
+{
+  color: white;
+  margin-left: 20px;
+}
+
+nav
+{
+  background: #666;
+  padding: 20px;
+text-align: center;
+}
+
+nav a{
+color: #fff;
+text-d
+}
+
+div {
+  border: 5px solid black;
+  margin: 80px 50px 75px;
+  background-color: lightblue;
+background-color: Red;
+}
+
+
+article
+{
+   background:Violet;
+   margin: 10px 0;
+   padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

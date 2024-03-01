@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Crear usuario</title>
+<style type="text/css">
+		
+div
+{
+   background: #3352FF;
+   margin: 20px 100px 20px 100px;
+   border: 3px solid white;
+
+
+   width: 400px;
+
+}
+
+body
+{
+	background: black;
+}
+
+
+</style>
+</head>
+<body>
+<center>
+<div>	
+<table>
+<form method="post" action="conexion.php">
+<tr>
+<td>	
+Nombre:
+</td>
+</tr>
+<tr>
+<td>
+<input type="text" name="nombre">
+</td>
+</tr>
+<tr>
+<td>	
+Apellido:
+</td>
+</tr>
+<tr>
+<td>
+<input type="text" name="Apellido">
+</td>
+</tr>
+<tr>
+<td>	
+Genero:
+</td>
+</tr>
+<tr>
+<td>
+<input type="checkbox" name="Genero" value="Masculino">Masculino<br>
+<input type="checkbox" name="Genero" value="Femenino">Femenino<br>
+<input type="checkbox" name="Genero" value="Empresa">Empresa<br>
+</td>
+</tr>
+<tr>
+<td>	
+Correo:
+</td>
+</tr>
+<tr>
+<td>
+<input type="email" name="Correo">
+</td>
+</tr>	
+<tr>
+<td>
+Tipo de documento:
+</td>
+<td>
+Numero de documento:
+</td>
+</tr>
+<tr>
+<td>	
+<select name="option" >
+<option value="Cedula cuidadania">Cedula de Cuidadania</option>
+<option value="Cedula Extranjeria">Cedula de Extranjeria</option>
+<option value="Nit">Nit</option>
+</select>
+</td>
+<td>
+<input type="number" name="Numerodoc">
+</td>	
+</tr>
+<td>	
+Tipo de usuario:
+</td>
+</tr>
+<tr>
+<td>
+<input type="checkbox" name="UsuarioE" value="UsuarioE">Experto<br>
+<input type="checkbox" name="UsuarioC" value="">Consultante<br>
+
+</td>
+</tr>
+<tr>
+<td>
+Departamento:
+</td>
+<td>
+Cuidad:
+</td>
+</tr>
+<tr>
+<td>
+<select name="option1">
+<option value="Amazonas">Amazonas</option>
+<option value="Antioquia">Antioquia</option>
+<option value="Arauca">Arauca</option>
+<option value="Atlantico">Atlantico</option>
+<option value="Bolivar">Bolivar</option>
+<option value="Boyaca">Boyaca</option>
+<option value="Caldas">Caladas</option>
+<option value="Caqueta">Caqueta</option>
+<option value="Casanare">Casanare</option>
+<option value="Cauca">Cauca</option>
+<option value="Cesar">Cesar</option>
+<option value="Choco">Choco</option>
+<option value="Cordoba">Cordoba</option>
+<option value="Cundinamarca">Cundinamarca</option>
+<option value="Guania">Guania</option>
+<option value="Guaviare">Guaviare</option>
+<option value="Huila">Huila</option>
+<option value="La guajira">La guajira</option>
+<option value="Magdalena">Magdalena</option>
+<option value="Meta">Meta</option>
+<option value="Nariño">"Nariño"</option>
+<option value="Norte de santander">Norte de santander</option>
+<option value="Putumayo">Putumayo</option>
+<option value="Quindio">Quindio</option>
+<option value="Risaralda">Risaralda</option>
+<option value="San Andres y Providencia">San Andres y Providencia</option>
+<option value="Santander">Santander</option>
+<option value="Sucre">Sucre</option>
+<option value="Tolima">Tolima</option>
+<option value="Valle del Cauca">Valle del Cauca</option>
+<option value="Vaupes">Vaupes</option>
+<option value="Bichada ">Bichada</option>
+</select>
+</td>
+<td>
+<select name="option2">
+<option value="Leticia">Leticia</option>
+<option value="Medellin">Medellin</option>
+<option value="Arauca">Arauca</option>
+<option value="Barranquilla">Barranquilla</option>
+<option value="Cartajena de indias">Cartajena de indias</option>
+<option value="Tunja">Tunja</option>
+<option value="Manizales">Manizales</option>
+<option value="Florencia">Florencia</option>
+<option value="Yopal">Yopal</option>
+<option value="Popayan">Popayan</option>
+<option value="Valledupar">Valledupar</option>
+<option value="Quibdo">Quibdo</option>
+<option value="Monteria">Monteria</option>
+<option value="Bogota">Bogota</option>
+<option value="Puerto inirida">Puerto inirida</option>
+<option value="San jose de Guaviare">San jose de Guaviare</option>
+<option value="neiva">neiva</option>
+<option value="Rioacha">Rioacha</option>
+<option value="Santa marta">Santa marta</option>
+<option value="Villavivencio">Villavivencio</option>
+<option value="Pasto">Pasto</option>
+<option value="Cucuta">Cucuta</option>
+<option value="Mocoa">Mocoa</option>
+<option value="Armenia">Armenia</option>
+<option value="Pereira">Pereira</option>
+<option value="San Andres y Providencia">San Andres y Providencia</option>
+<option value="Bucaramanga">Bucaramanga</option>
+<option value="Sincelejo">Sincelejo</option>
+<option value="Ibague">Ibague</option>
+<option value="Cali">Cali</option>
+<option value="Mitu">Mitu</option>
+<option value="Puerto carreño">Puerto carreño</option>
+</select>
+</td>	
+</tr>
+<tr>
+<td>
+Direccion:
+</td>
+</tr>
+<tr>
+<td>
+<input type="text" name="Direccion">
+</td>
+</tr>
+<tr>
+<td>	
+<hr>
+Informacion de inicio de sesion. 
+<hr>
+</td>
+</tr>
+<tr>
+<td>	
+Contraseña
+</td>
+</tr>
+<tr>
+<td>
+<input type="password" name="password">
+</td>
+</tr>
+<tr>
+<td>
+Repetir Contraseña
+</td>		
+</tr>
+<tr>
+<td>
+<input type="password" name="rpas">
+</td>	
+</tr>
+<tr>
+<td>
+<button><input type="submit" value="enviar"></button>
+</td>
+</tr>	
+</form>	
+</table>
+</div>
+</center>
+<center>
+<button><a href="index.html" value="inicio">Inicio</button>
+</center>
+</body>
+
+</html>
